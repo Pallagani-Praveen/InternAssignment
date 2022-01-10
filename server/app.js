@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 
-const PORT = process.env.PORT || 4000;
+const PORT =  4000;
 
 app.get('/',(req,res)=>{
     res.json({'msg':'Server Working Fine'});
