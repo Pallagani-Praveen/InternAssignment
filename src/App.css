@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.alert {
+  padding: 10px;
+  background-color: red;
+  width:400px;
+  margin:10px auto;
+  border-radius:4px;
+  font-weight: bold;
+}
+
+.login-form {
+  max-width: 400px;
+  margin:30px auto;
+  padding:20px;
+  border-radius: 4px;
+  color:black;
+  background:url('./Imgs/sky.jpg')
+}
+
+input[type="submit"] {
+  padding:1px 5px;
+}
+
+.home {
+  width:80%;
+  margin:10px auto;
+  background:#eee;
+  height:80vh;
+}
+
+.home nav {
+  display:flex;
+  justify-content:space-between;
+  padding:10px;
+  border:solid 2px black;
+}
+
+.tabs {
+  position: relative;
+  height:100%;
+  background-color:#aaa;
+}
+
+.tab1 {
+  position:absolute;
+  z-index:2;
+  background-color:royalblue;
+  height:100%;
+  width:100%;
+}
+
+.tab1 table {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+  font-weight: bold;
+}
+
+.tab2  {
+  position: absolute;
+  z-index:1;
+  background:blueviolet;
+  height:100%;
+  width:100%;
+  overflow-y: scroll;
+}
+
+.user{
+  padding:5px;
+  margin:5px;
+  background:#eee;
+}
+
+tr td:nth-child(1) {
+  font-weight:bold;
+}
